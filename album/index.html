@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="style.css">
 <head>
   <meta charset="UTF-8">
   <title>Album</title>
@@ -9,6 +10,7 @@
 </head>
 <body>
   <!-- Nav -->
+  <span>
   <nav id="nav">
     <div class="name"><strong>Huiying</strong>
      Chen
@@ -26,11 +28,23 @@
         <a href="../album">Album</a>
       </div>
   </nav>
+  </span>
   <br>
 <h3> Album</h3>
-<span>
-  <img src="../image/snowboard.JPG" alt="picture-snowboard">
-  <img src="../image/night.jpg" alt="picture-night">
-</span>
+
+<div class="gallery">
+  <figure class="gallery__item gallery__item--1">
+    <img src="../image/snowboard.JPG" class="gallery__img" alt="Image 1">
+  </figure>
+  <figure class="gallery__item gallery__item--2">
+    <img src="../image/rose.png" class="gallery__img" alt="Image 2">
+  </figure>
+  <figure class="gallery__item gallery__item--3">
+    <img src="../image/seattle.jpg" class="gallery__img" alt="Image 3">
+  </figure>
+  <figure class="gallery__item gallery__item--4">
+    <img src="../image/night.jpg" class="gallery__img" alt="Image 4">
+  </figure>
+</div>
 </body>
 </html>

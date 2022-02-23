@@ -45,6 +45,13 @@ span {
   display: flex;
   justify-content: space-evenly;
 }
+
 img {
   height: 500px;
+}
+
+@media (min-width: 30em) and (max-width: 50em) {
+  body {
+    background-color: grey;
+  }
 }
